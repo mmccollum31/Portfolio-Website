@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matt McCollum</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+        .w3-row-padding img {margin-bottom: 12px}
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {width: 120px;background: #222;}
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {margin-left: 120px}
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+        iframe {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body class="w3-black">
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152435721815199744/hruggekblueicon.png" style="width:100%">
+
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>RESUME</p>
+  </a>  
+  <a href="#games" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-gamepad w3-xxlarge"></i>
+    <p>GAMES</p>
+  </a>
+  <a href="#paintings" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-paint-brush w3-xxlarge"></i>
+    <p>PAINTINGS</p>
+  </a>
+  <a href="#music" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-music w3-xxlarge"></i>
+    <p>MUSIC</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#games" class="w3-bar-item w3-button" style="width:25% !important">GAMES</a>
+    <a href="#paintings" class="w3-bar-item w3-button" style="width:25% !important">PAINTINGS</a>
+    <a href="#music" class="w3-bar-item w3-button" style="width:25% !important">MUSIC</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Matt McCollum.</h1>
+    <p>Computational Media Student</p>
+    <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152310950104412190/hruggek.png" 
+            alt="oh boy oh wow!" class="w3-image" width="293" height="227">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Experience</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Hi, I'm Matt. I am a computational media major at the Georgia Institute of Technology. 
+      I am participating in the Music Technology thread and the Media thread. 
+      I hope to work in sound design for digital media in the the not-to-distant future. </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Software Development in C and Java</p>
+    <div class="w3-dark-grey">
+      <div class="w3-light-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">Game Design</p>
+    <div class="w3-dark-grey">
+      <div class="w3-light-grey" style="height:28px;width:97%"></div>
+    </div>
+    <p class="w3-wide">Music Composition</p>
+    <div class="w3-dark-grey">
+      <div class="w3-light-grey" style="height:28px;width:83%"></div>
+    </div>
+    <p class="w3-wide">Painting</p>
+    <div class="w3-dark-grey">
+      <div class="w3-light-grey" style="height:28px;width:63%"></div>
+    </div>
+    <p class="w3-wide">Witty Banter</p>
+    <div class="w3-dark-grey">
+      <div class="w3-light-grey" style="height:28px;width:105%"></div>
+    </div><br>
+  
+    <p>If you want to know more about my work experience and education, please download my resume.</p>
+
+        <button class="w3-button w3-light-grey w3-padding-large w3-section">
+          <i class="fa fa-download"></i> Download Resume
+        </button>
+
+    <p>If the button doesn't work, it is because I have not implemented it yet.</p>
+      
+  <!-- End About Section -->
+  </div>
+
+  <!-- Games Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="games">
+    <h2 class="w3-text-light-grey">My Games</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I did not have time to record a demo of my student project game from last semester, 
+      but it will be included in the final portfolio website submission, along with a link to download the game and play it yourself. 
+      In the mean time, please enjoy this performance of Queen's Bohemian Rhapsody:</p>
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe> 
+  <!-- End Games Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="paintings">
+    <h2 class="w3-text-light-grey">My Paintings</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>A selection of my intuitive painting work, from early 2020 to late 2022. All paintings done in watercolor on paper.</p>
+
+    <!-- Grid for Paintings -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152419638802665482/IMG_1591.jpg" style="width:100%">
+        <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152419233033105548/IMG_1599.jpg" style="width:100%">
+        <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152419453745770547/IMG_1598.jpg" style="width:100%">
+        <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152419221075140638/IMG_1596.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152419621899604019/IMG_1594.jpg" style="width:100%">
+        <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152419630221103114/IMG_1672.jpg" style="width:100%">
+        <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152419443251613776/IMG_1595.jpg" style="width:100%">
+        <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152419430047944744/IMG_1592.jpg" style="width:100%">
+      </div>
+    <!-- End Painting grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+<!-- Music Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="music">
+        <h2 class="w3-text-light-grey">My Music</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p>
+          While I have been playing music for most of my life, I have only recently begun to compose my own music. 
+          The track below showcases my unearned nostalgia for misremembered turn-of-the-century video game music. 
+          My favorite examples of this kind of music would be the soundtrack from Age of Empires II, 
+          and the sparse music elements featured in the maps of the freeware game Urban Terror.
+          If you know, you know. If you don't know, you can probably imagine.
+        </p>
+        <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1446934168&color=%23fc1404&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            <div style="text-align: center;">
+                <a href="https://soundcloud.com/user-749733900" title="M3" target="_blank" style="color: #cccccc; text-decoration: none;">M3</a>
+                <span style="color: #cccccc;"> · </span> <!-- Add a separator if needed -->
+                <a href="https://soundcloud.com/user-749733900/circus" title="Circus" target="_blank" style="color: #cccccc; text-decoration: none;">Circus</a>
+              </div>
+              
+      <!-- End Music Section -->
+      </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section"> <!-- Contact Info, obviously temporary/fake info for now, may not be wise to include such information on a publicly accessible site-->
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Atlanta, GA</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+
+    <p>Let's get in touch. Send me a message:</p> <!-- Contact form, needs completion or removal in the final site -->
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+      <p>If the button doesn't work, it is because I have not implemented it yet.</p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-center w3-padding-64 w3-text-grey w3-xlarge">
+    <img src="https://cdn.discordapp.com/attachments/421015994157498368/1152435721815199744/hruggekblueicon.png" style="width:20%">
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
